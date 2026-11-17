@@ -1,0 +1,8 @@
+# denyenfants : reseaux sociaux bloques pour les enfants
+# Groupe Pi-hole : Enfants. Format ABP (|| = domaine et sous-domaines).
+# Remplace les regles de domaines 88, 89, 90, 91 du menu Domaines.
+
+||facebook.com^
+||snapchat.com^
+||instagram.com^
+||twitter.com^
