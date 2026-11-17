@@ -1,0 +1,7 @@
+# denydefault : blocages du groupe Default (domaines exacts uniquement, sans sous-domaines)
+# Groupe Pi-hole : Default. Cree le 17/11/2026. Remplace les 5 refus exacts (regles 1, 2, 4, 52, 217) du menu Domaines.
+openapi.xg.qq.com
+www.baidu.com
+static.doubleclick.net
+cofidis.commander1.com
+wpad.fred24

@@ -1,0 +1,7 @@
+# allow-tous-groupes : autorisations valables pour tous les groupes
+# Groupes Pi-hole : Default, No_Filtering, Enfants, IPCAM, Alexa. Cree le 17/11/2026.
+# Remplace les regles regex 223, 231 et 232 du menu Domaines (necessaires car la regex "." des IPCAM bloque tout).
+# Lignes "||domaine^" = domaine et ses sous-domaines.
+||ael.eaux-du-hautvaldesevre.fr^
+||earn.fm^
+||packetstream.io^

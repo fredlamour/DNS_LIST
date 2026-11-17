@@ -1,0 +1,57 @@
+# allow-default : autorisations du groupe Default (domaines exacts + domaines avec sous-domaines)
+# Groupe Pi-hole : Default. Cree le 17/11/2026. Remplace 49 regles du menu Domaines.
+# Lignes "||domaine^" = domaine et ses sous-domaines (ancien filtre regex). Lignes simples = domaine exact.
+# Une autorisation l'emporte sur un blocage.
+
+# --- Domaines avec sous-domaines (anciens filtres regex) ---
+||whatsapp.net^
+||roku.com^
+||facebook.com^
+||manga-news.com^
+||mercipourlinfo.fr^
+
+# --- Domaines exacts ---
+4030.api.swrve.com
+a.applvn.com
+api.accengage.com
+api.amplitude.com
+api.ipify.org
+app.adjust.com
+axafr.eu.qualtrics.com
+ch0p.darty.com
+csm.nl.eu.criteo.net
+ct.klclick.com
+ctrk.klclick.com
+data.mistat.intl.xiaomi.com
+data.mistat.xiaomi.com
+dealabs.digidip.net
+device-metrics-us.amazon.com
+email-link.adtidy.org
+eu-office.events.data.microsoft.com
+eultech.fnac.com
+fedex.eu.qualtrics.com
+graph.instagram.com
+gvt2.com
+i.instagram.com
+i16-tb.isnssdk.com
+ichannel-tb.isnssdk.com
+id.google.com
+in.appcenter.ms
+linkvertise.com
+mobile-stats.socialquantum.com
+mobile.events.data.microsoft.com
+mobile.pipe.aria.microsoft.com
+myip.wtf
+new-user-data-api.fungames-forfree.com
+philips.112.2o7.net
+prism.app-us1.com
+s.click.aliexpress.com
+sa.api.intl.miui.com
+self.events.data.microsoft.com
+t.notif-colissimo-laposte.info
+www.awin1.com
+www.instagram.com
+www.ojrq.net
+www.shareasale.com
+www.virginradio.fr
+ynuf.aliapp.org
