@@ -1,16 +1,8 @@
 # allow-default : autorisations du groupe Default (domaines exacts + domaines avec sous-domaines)
-# Groupe Pi-hole : Default. Cree le 17/11/2026. Remplace 49 regles du menu Domaines.
-# Lignes "||domaine^" = domaine et ses sous-domaines (ancien filtre regex). Lignes simples = domaine exact.
+# Groupe Pi-hole : Default. Cree le 17/11/2026. Remplace 44 regles de domaines exacts du menu Domaines.
+# Domaines exacts uniquement (une liste d'autorisation ne gere pas le format ||domaine^).
 # Une autorisation l'emporte sur un blocage.
 
-# --- Domaines avec sous-domaines (anciens filtres regex) ---
-||whatsapp.net^
-||roku.com^
-||facebook.com^
-||manga-news.com^
-||mercipourlinfo.fr^
-
-# --- Domaines exacts ---
 4030.api.swrve.com
 a.applvn.com
 api.accengage.com
