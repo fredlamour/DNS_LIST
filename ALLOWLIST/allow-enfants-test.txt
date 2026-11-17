@@ -1,0 +1,10 @@
+# allow-enfants-test : diagnostics Windows autorises pour les PC des enfants
+# Groupe Pi-hole : Enfants. Test du 17/11/2026 : les rapports d'utilisation Microsoft Family Safety
+# remontent-ils quand ces domaines ne sont plus bloques ? A verifier le lundi 23/11/2026.
+# Si sans effet : supprimer cette liste dans Pi-hole (et ce fichier).
+watson.events.data.microsoft.com
+functional.events.data.microsoft.com
+v10.events.data.microsoft.com
+settings-win.data.microsoft.com
+continuum.dds.microsoft.com
+activity.windows.com
