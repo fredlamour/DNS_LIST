@@ -1,0 +1,22 @@
+# denytv : publicites des replays TV et de Google TV / Android TV
+# Groupe Pi-hole : Default. Format ABP (|| = domaine et sous-domaines).
+# Remplace les regles de domaines 5, 6, 66, 67, 68, 69, 105, 107, 187 du menu Domaines.
+
+# Serveurs publicitaires FreeWheel (fwmrm) par chaine
+||7b9de.v.fwmrm.net^
+||7cbf2.v.fwmrm.net^
+||7cd77.v.fwmrm.net^
+||7bd92.v.fwmrm.net^
+||7dcde.v.fwmrm.net^
+
+# Pub Canal+
+||proxy.ads.canalplus-bo.net^
+
+# Pub France TV
+||videos-pub.ftv-publicite.fr^
+
+# Pub TF1
+||slpubmedias.tf1.fr^
+
+# Pubs Android TV / Google TV
+||androidtvwatsonfe-pa.googleapis.com^
