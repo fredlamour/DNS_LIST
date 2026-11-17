@@ -1,4 +1,4 @@
-# allow-default : autorisations du groupe Default (domaines exacts + domaines avec sous-domaines)
+# allow-default : autorisations du groupe Default (domaines exacts)
 # Groupe Pi-hole : Default. Cree le 17/11/2026. Remplace 44 regles de domaines exacts du menu Domaines.
 # Domaines exacts uniquement (une liste d'autorisation ne gere pas le format ||domaine^).
 # Une autorisation l'emporte sur un blocage.
