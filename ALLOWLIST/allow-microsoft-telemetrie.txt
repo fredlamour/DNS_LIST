@@ -1,0 +1,9 @@
+# allow-microsoft-telemetrie : telemetrie Microsoft Office autorisee
+# Groupes Pi-hole : Default + Enfants. Ajoutee le 10/11/2026 pour que la liste HaGeZi native winoffice
+# ne casse pas Office. Remplace les regles de domaines 233 a 238 du menu Domaines.
+config.fp.measure.office.com
+upload.fp.measure.office.com
+location.microsoft.com
+incidents.diagnostics.office.com
+ieonlinews.microsoft.com
+eu-mobile.events.data.microsoft.com
